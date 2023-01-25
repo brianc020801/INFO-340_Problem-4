@@ -3,48 +3,90 @@
 <head>
   <meta charset="utf-8">
   <title>Playing Cards</title>
-
-  <!-- link in Bootstrap here -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <h1>Playing Cards</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <header class="container-fluid bg-dark text-white py-5">
+    <div class="container">
+      <h1>Playing Cards</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
   </header>
 
   <main>
 
-    <!-- Card 1 -->
-    <div>
-      <img src="img/card-club-icon.png" alt="the club suit symbol">
-      <h2>Clubs</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
-      <a href="#">Play</a>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-auto col-xl-12">
+                  <img src="img/card-club-icon.png" alt="the club suit symbol" class="pb-3">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Clubs</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
+                  <a class="btn btn-dark" href="#" role="button">Play</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-auto col-xl-12">
+                  <img src="img/card-diamond-icon.png" alt="the diamond suit symbol" class="pb-3">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Diamonds</h2>
+                  <p class="card-text">Quam, officiis ut adipisci pariatur veniam labore ipsum optio tenetur!</p>
+                  <a class="btn btn-dark" href="#" role="button">Play</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Card 2 -->
-    <div>
-      <img src="img/card-diamond-icon.png" alt="the diamond suit symbol">
-      <h2>Diamonds</h2>
-      <p>Quam, officiis ut adipisci pariatur veniam labore ipsum optio tenetur!</p>
-      <a href="#">Play</a>
-    </div>
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-auto col-xl-12">
+                  <img src="img/card-heart-icon.png" alt="the heart suit symbol" class="pb-3">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Hearts</h2>
+                  <p class="card-text">Reiciendis doloremque voluptas veniam repellendus quisquam deleniti tenetur quia a.</p>
+                  <a class="btn btn-dark" href="#" role="button">Play</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Card 3 -->
-    <div>
-      <img src="img/card-heart-icon.png" alt="the heart suit symbol">
-      <h2>Hearts</h2>
-      <p>Reiciendis doloremque voluptas veniam repellendus quisquam deleniti tenetur quia a.</p>
-      <a href="#">Play</a>
-    </div>
-
-    <!-- Card 4 -->
-    <div>
-      <img src="img/card-spade-icon.png" alt="the heart suit symbol">
-      <h2>Spades</h2>
-      <p>Maiores voluptate rem odit dolor temporibus asperiores maxime velit sapiente.</p>
-      <a href="#">Play</a>
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-auto col-xl-12">
+                  <img src="img/card-spade-icon.png" alt="the heart suit symbol" class="pb-3">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Spades</h2>
+                  <p class="card-text">Maiores voluptate rem odit dolor temporibus asperiores maxime velit sapiente.</p>
+                  <a class="btn btn-dark" href="#" role="button">Play</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </main>
